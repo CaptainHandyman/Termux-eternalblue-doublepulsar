@@ -23,6 +23,7 @@ Auto installation commands:
 | pkg install clang++                                                                                           |
 | clang++ autoinstall.cpp -o auto && ./auto                                                                     |
 -----------------------------------------------------------------------------------------------------------------
+
 Usage:
 -----------------------------------------------------------------------------------------------------------------
 | use exploits/windows/smb/eternalblue_doublepulsar                                                             |
